@@ -1,7 +1,7 @@
 {
   "name": "observe-el",
-  "version": "0.0.1",
-  "description": "Easy way to react to changes in the DOM. Uses the MutationObserver API.",
+  "version": "0.1.0",
+  "description": "Easily react to changes in the DOM. Uses the MutationObserver API.",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",

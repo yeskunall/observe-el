@@ -1,5 +1,7 @@
-# observe-el
+# observe-el [![Build Status](https://travis-ci.org/yeskunall/observe-el.svg?branch=master)](https://travis-ci.org/yeskunall/observe-el)
 > Easily react to changes in the DOM. Uses the MutationObserver API.
+
+## Install
 
 ```shell
 $ npm install observe-el
@@ -20,7 +22,7 @@ p.innerText = 'Changed text';
 
 // Output
 ...
-// => 💡 DOM Element changed!
+//=> 💡 DOM Element changed!
 ```
 
 ## API

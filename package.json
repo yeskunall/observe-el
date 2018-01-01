@@ -1,6 +1,6 @@
 {
   "name": "observe-el",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easily react to changes in the DOM. Uses the MutationObserver API.",
   "main": "index.js",
   "scripts": {

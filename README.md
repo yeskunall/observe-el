@@ -29,7 +29,7 @@ p.innerText = 'Changed text';
 
 ### observeEl(element, callback, [options])
 
-Returns an instance of `MutationObserver`.
+Returns an instance of `MutationObserver` and registers the instance to receive notifications of DOM mutations on the specified node.
 
 ### element
 

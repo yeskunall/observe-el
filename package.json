@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start test.conf.js"
   },
   "repository": {
     "type": "git",
@@ -19,17 +19,29 @@
   },
   "homepage": "https://github.com/yeskunall/observe-el#readme",
   "devDependencies": {
+    "browserify": "^14.5.0",
+    "delay": "^2.0.0",
     "eslint": "^4.14.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^0.14.3",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^2.0.0",
+    "karma-browserify": "^5.1.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
     "lint-staged": "^6.0.0",
-    "prettier": "^1.9.2"
+    "prettier": "^1.9.2",
+    "watchify": "^3.9.0"
   },
   "lint-staged": {
     "*.js": [
       "prettier --write --config .prettierrc",
       "git add"
     ]
+  },
+  "dependencies": {
+    "select-dom": "^4.1.1"
   }
 }

@@ -47,9 +47,10 @@ The function which will be called on each DOM mutation. More on that [here](http
 
 Type: `object`
 
-Default: `{ childList: true }`
+Default: `{ attributes: true, characterData: true, childList: true }`
 
-Expects a `MutationObserverInit` object with at least one of `childList`, `attributes`, or `characterData` set to `true`. For a list of all valid options, see [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver#MutationObserverInit).
+Expects a `MutationObserverInit` object with at least one of `childList`, `attributes`, or `characterData` set to `true`.<br/>
+__NOTE__: All 3 options are set to `true` by default. For a list of all valid options, see [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver#MutationObserverInit).
 
 
 

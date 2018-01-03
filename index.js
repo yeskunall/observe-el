@@ -1,6 +1,10 @@
 const select = require('select-dom');
 
-module.exports = (element, callback, options = { childList: true }) => {
+module.exports = (
+  element,
+  callback,
+  options = { attributes: true, characterData: true, childList: true }
+) => {
   let el = element;
   if (typeof el === 'string') {
     el = select(el);

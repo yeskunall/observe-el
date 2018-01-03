@@ -11,7 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/yeskunall/observe-el.git"
   },
-  "keywords": [],
+  "keywords": [
+    "mutations",
+    "DOM",
+    "listener",
+    "HTML",
+    "MutationObserver",
+    "observe",
+    "observer"
+  ],
   "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.now.sh/)",
   "license": "MIT",
   "bugs": {

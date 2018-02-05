@@ -1,4 +1,4 @@
-# observe-el [![Build Status](https://travis-ci.org/yeskunall/observe-el.svg?branch=master)](https://travis-ci.org/yeskunall/observe-el)
+# observe-el [![Build Status](https://travis-ci.org/yeskunall/observe-el.svg?branch=master)](https://travis-ci.org/yeskunall/observe-el) [![npm](https://img.shields.io/npm/dt/observe-el.svg)](http://npm.im/observe-el)
 > Easily react to changes in the DOM. Uses the MutationObserver API.
 
 ## Install
